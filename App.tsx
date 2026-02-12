@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { ListTodo, Clock, Bell } from 'lucide-react';
-import Sidebar from './components/Sidebar';
+import Sidebar from './Sidebar';
 import CircuitView from './components/CircuitView';
 import DashboardView from './components/DashboardView';
 import StudySessionView from './components/StudySessionView';
