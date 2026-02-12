@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 import { Copy, Trash2, ChevronRight, Plus, ChevronUp, ChevronDown, RotateCcw, Play, Zap, CheckCircle } from 'lucide-react';
-import { CircuitItem, StudyStatus } from '../types';
+import { CircuitItem, StudyStatus } from './types';
+
 
 interface CircuitViewProps {
   items: CircuitItem[];
