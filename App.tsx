@@ -2,11 +2,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ListTodo, Clock, Bell } from 'lucide-react';
 import Sidebar from './Sidebar';
-import CircuitView from './components/CircuitView';
-import DashboardView from './components/DashboardView';
+import CircuitView from './CircuitView';
+import DashboardView from './DashboardView';
 import StudySessionView from './components/StudySessionView';
 import SimuladosView from './components/SimuladosView';
-import ReviewView from './components/ReviewView';
+import ReviewView from '/ReviewView';
 import { ViewType, CircuitItem, StudyStatus, Profile, Simulado, ReviewContent, WrongQuestion } from './types';
 import { INITIAL_CIRCUIT } from './constants';
 
