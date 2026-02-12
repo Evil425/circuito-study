@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { Trophy, Target, TrendingUp, Brain, Info, Clock, Activity, Zap } from 'lucide-react';
-import { getStudyInsights } from '../services/geminiService';
+import { getStudyInsights } from './geminiService';
 
 interface DashboardViewProps {
   stats: any[];
