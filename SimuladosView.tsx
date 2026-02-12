@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { ClipboardList, Plus, Trash2, TrendingUp, Award, Percent, Info, LineChart as ChartIcon, AlertCircle } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { Simulado } from '../types';
-import { getSimuladoAnalysis } from '../services/geminiService';
+import { getSimuladoAnalysis } from './geminiService';
 
 interface SimuladosViewProps {
   simulados: Simulado[];
